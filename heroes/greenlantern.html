@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JL | Green Lantern</title>
+	<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+<body>
+<header>
+	<h1 class=>BATTLE</h1>
+
+</header>
+<div class="battle-map">
+
+
+<div class="display">
+<div class="hero">
+<img src="img/greenlan.jpg">
+<p>GREEN LANTERN</p>
+<p> STRENGHT: <span id="str">3250</span></p>
+<p>Level: 1</p>
+<p>DAMAGE: <span id="resultl"></span> </p>
+</div>
+</div>
+
+
+<div class="battle-gui">
+<div class="timer" ><b>Battle time: <span id="time"></span></b></div>
+<div class="wall">
+	<p id="wallvalue">1000</p>
+</div>
+<div class="stats">
+	<p><b>DAMAGE:</b><span id="resultlc"></span></p>
+	<p><b>DAMAGE:</b><span id="resultrc"></span></p>
+</div>
+<div class="active">
+	<BUTTON class="begin" onclick="startTimer(60,document.querySelector('#time'))"><b>START</b></BUTTON>
+	<BUTTON class="doit" onclick="damagec(); enemy();"><b>FIGHT</b></BUTTON>
+</div>
+<div class="about">
+<p>Developed by <a href="urosv">urosv</a></p>
+<p> JUSTICE LEAGUE 2017</p>
+	
+</div>
+</div>
+
+
+<div class="display">
+<div class="hero">
+<img src="img/sinestro.jpg">
+<p>SINESTRO</p>
+<p> STRENGHT: <span id="stre">3024</span></p>
+<p>Level: 1</p>
+<p>DAMAGE: <span id="resultr"></span> </p>
+</div>
+</div>
+</div>
+
+<button onclick="tutorial()">TUTORIAL</button>
+
+
+<script src="JS/funkcionalnost.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+body{
+	margin: 0 auto;
+	font-family: 'Source Sans Pro', sans-serif;
+	
+
+}
+header{
+	background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+	position: relative;
+    top: 0;
+    width: 100%;
+    text-align: CENTER;
+}
+
+li {
+    display:inline-block;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+
+	
+}
+.izaberi{
+
+	text-align: center;
+	color: white;
+}
+.slika{
+	height: 25vh;
+	width: 100%;
+	background-color: blue;
+}
+.slika1{
+	height: 35vh;
+	width: 100%;
+}
+.heroes{
+	display: flex;
+	align-items: center;
+
+}
+.display{
+	display: row-rewerse;
+	height: 265px;
+	width: 250px;
+	border-radius: 14px;
+	border: 1px solid black;
+	margin: 20px 0 160px 70px;
+	text-decoration: none;
+
+}
+
+.hero{
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+
+}
+footer{
+	height: 20vh;
+	background-color: #303030;
+}
+.copyright{
+	margin: 0;
+	padding-top: 20px;
+	color: white;
+	text-align: center;
+}

@@ -1,0 +1,83 @@
+html{
+	background-image: url("img/wall.jpg");
+
+}
+
+body{
+	margin: 0 auto;
+	font-family: 'Source Sans Pro', sans-serif;
+	
+}
+header{
+	text-align: center;
+}
+.battle-map{
+	display: flex;
+}
+.display{
+	
+	height: 400px;
+	width: 250px;
+	border-radius: 14px;
+	border: 1px solid black;
+	margin: 20px 0 200px 90px;
+	text-decoration: none;
+
+}
+
+.hero{
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+.battle-gui{
+	text-align: center;
+	height: 450px;
+	width:  280px;
+	border: 1px solid black;
+	margin-left: 200px;
+
+}
+.timer{
+	font-size: 25px;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+
+}
+.wall{
+	font-size: 40px;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+.stats{
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+.active{
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	padding-top: 5px;
+}
+.about{
+	padding-bottom: 15px;
+}
+button{
+	height: 40px;
+	width: 80px;
+	border-radius: 14px;
+}
+
+.begin{
+	height: 40px;
+	width: 80px;
+	border-radius: 14px;
+	background-color: gray;
+
+}
+.doit{
+	background-color: #1CBCB5;
+	color: white;
+
+}
